@@ -1,0 +1,13 @@
+.chart {
+    margin: 28px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -8px black ;
+}
+
+.chartTitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+

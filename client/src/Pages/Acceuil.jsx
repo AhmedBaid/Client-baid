@@ -3,32 +3,19 @@ import "../CSS/Accueil.css";
 import Chart from "../Components/chart/chart";
 import BarChartComponent from "../ChartCompenant/BarChartComponent ";
 import PieChartComponent from "../ChartCompenant/PieChartComponent ";
-import ScaleChartComponent from "../ChartCompenant/ScaleChartCompenant";
 
 const Acceuil = () => {
     // Dummy pie chart data
     const pieChartData = [
-        { id: 0, value: 30, label: 'Catégorie A' },
-        { id: 1, value: 20, label: 'Catégorie B' },
-        { id: 2, value: 25, label: 'Catégorie C' },
-        { id: 3, value: 15, label: 'Catégorie D' },
-        { id: 4, value: 10, label: 'Catégorie E' },
-        { id: 5, value: 10, label: 'Catégorie F' },
-        { id: 6, value: 10, label: 'Catégorie G' },
-        { id: 7, value: 10, label: 'Catégorie H' },
+        { id: 0, value: 30, label: 'PAPIER LASER BLANC' },
+        { id: 1, value: 20, label: 'ENVELOPPE KRAFT AUTOADHESIVE' },
+        { id: 2, value: 25, label: 'REGISTRE PREIMPRIME' },
+        { id: 3, value: 15, label: 'CD DVD VIERGES' },
+        { id: 4, value: 10, label: 'BOITE ARCHIVES EN CARTONNE' },
+        { id: 5, value: 10, label: 'AGRAFE' },
+        { id: 6, value: 10, label: 'ROULEAU ADHESIF TRANSPARENT' },
+        { id: 7, value: 10, label: 'PORTES VUES' },
     ];
-
-    // Dummy bar chart data
-    const barChartData = {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        datasets: [
-            {
-                label: 'Nombre de commandes (Vert)', // Label with color indication
-                data: [20, 35, 40, 15, 30, 25, 40, 45, 50, 55, 60, 65],
-                backgroundColor: 'green', // Set bar color to green
-            },
-        ],
-    };
     return (
         <div className="home">
             <div className="cardBox p-0 gap-4 flex flex-wrap">
@@ -82,17 +69,13 @@ const Acceuil = () => {
                 </div>
                 <div className="grid1">
                     <div className='chart2'>
-                        <h1 className='chart-title'>Répartition des produits par catégorie</h1>
-                        <BarChartComponent data={barChartData} w={500} h={300} />
-                    </div>
-                    <div className='chart2'>
-                        <h1 className='chart-title'>Historique des commandes par mois</h1>
-                        <PieChartComponent data={pieChartData} h={250} />
+                        <h1 className='chart-title'>Nombre des Commandes par mois</h1>
+                        <BarChartComponent w={500} h={300} />
                     </div>
                 </div>
-                <div className='scaleChart'>
-                    <h1 className='chart-title'>Historique des commandes par mois</h1>
-                    <ScaleChartComponent/>
+                <div className='Piechart'>
+                    <h1 className='chart-title'>Répartition des produits par catégorie</h1>
+                    <PieChartComponent data={pieChartData} h={250} />
                 </div>
             </div>
         </div>

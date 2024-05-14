@@ -18,7 +18,7 @@ const LineChartComponent = ({ data, colors }) => {
                 series={[
                     {
                         data: data,
-                        label: 'Quantité des produits de stock',
+                        label: 'Nombre des commandes par mois',
                         color,
                     },
                 ]}

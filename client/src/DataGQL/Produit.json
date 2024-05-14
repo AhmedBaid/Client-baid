@@ -132,10 +132,6 @@
     "totalQuantite": 498
   },
   {
-    "nomSousFamille": "ROULEAU ADHESIF TRANSPARENT",
-    "totalQuantite": 1744
-  },
-  {
     "nomSousFamille": "ROULEAU ADHESIF EMBALLAGE",
     "totalQuantite": 800
   },
@@ -156,10 +152,6 @@
     "totalQuantite": 205
   },
   {
-    "nomSousFamille": "ENVELOPPE KRAFT AUTOADHESIVE",
-    "totalQuantite": 2123
-  },
-  {
     "nomSousFamille": "DISQUE DUR",
     "totalQuantite": 382
   },
@@ -170,105 +162,5 @@
   {
     "nomSousFamille": "LECTEUR GRAVEUR",
     "totalQuantite": 510
-  },
-  {
-    "nomSousFamille": "CARTE MÉMOIRE 32/64 GB",
-    "totalQuantite": 870
-  },
-  {
-    "nomSousFamille": "CABLE USB IMPRIMANTE 1,5M/3M/5M",
-    "totalQuantite": 378
-  },
-  {
-    "nomSousFamille": "CD DVD VIERGES",
-    "totalQuantite": 665
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE CANON LBP 6020/6030",
-    "totalQuantite": 487
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP P1102",
-    "totalQuantite": 434
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP PRO M 12a",
-    "totalQuantite": 217
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP PRO M 102a",
-    "totalQuantite": 285
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE PRO M402dw/dn/dne",
-    "totalQuantite": 116
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP P 2035",
-    "totalQuantite": 405
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP 5200tn",
-    "totalQuantite": 141
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE LEXMARK E260",
-    "totalQuantite": 478
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP 203dn",
-    "totalQuantite": 490
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR IMPRIMANTE HP M479 fdn",
-    "totalQuantite": 511
-  },
-  {
-    "nomSousFamille": "TONER POUR IMPRIMANTE LASER HP M377 dw",
-    "totalQuantite": 513
-  },
-  {
-    "nomSousFamille": "TONER POUR IMPRIMANTE LASER HP M477 dw",
-    "totalQuantite": 344
-  },
-  {
-    "nomSousFamille": "DRUM LASER POUR IMPRIMANTE HP 102a",
-    "totalQuantite": 215
-  },
-  {
-    "nomSousFamille": "TONER LASER COPIEUR MF K MINOLTA BIZHUB 287",
-    "totalQuantite": 641
-  },
-  {
-    "nomSousFamille": "TONER LASER COPIEUR MF K MINOLTA BIZHUB C287",
-    "totalQuantite": 184
-  },
-  {
-    "nomSousFamille": "DRUM LASER COPIEUR MF K MINOLTA BIZHUB 287",
-    "totalQuantite": 103
-  },
-  {
-    "nomSousFamille": "DRUM LASER COPIEUR MF K MINOLTA BIZHUB C287",
-    "totalQuantite": 234
-  },
-  {
-    "nomSousFamille": "TONER LASER COPIEUR K MINOLTA BIZHUB 226",
-    "totalQuantite": 349
-  },
-  {
-    "nomSousFamille": "DRUM LASER COPIEUR K MINOLTA BIZHUB 226",
-    "totalQuantite": 758
-  },
-  {
-    "nomSousFamille": "TONER LASER COPIEUR K MINOLTA BIZHUB 266",
-    "totalQuantite": 346
-  },
-  {
-    "nomSousFamille": "DRUM LASER COPIEUR K MINOLTA BIZHUB 266",
-    "totalQuantite": 109
-  },
-  {
-    "nomSousFamille": "TONER LASER POUR FAX PRO BROTHER 2840",
-    "totalQuantite": 161
   }
 ]
